@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CModel id="AutoTurretReleaseWeapon2" parent="MissileFX">
         <Model value="Assets\Effects\Terran\AutoTurretPodMissile\AutoTurretPodMissile.m3"/>
         <EditorCategories value="Race:Terran"/>
-    </CModel>
-    <CModel id="DeathVoidShadowSmall2" parent="UnitDeath">
-        <Model value="Assets\Units\Neutral\VoidUnit_Death\VoidUnit_Death.m3"/>
-        <EditorCategories value="Race:Zerg"/>
     </CModel>
     <CModel id="GoliathAWeapon2" parent="MissileFX">
         <Model value="Assets\Effects\Terran\GoliathAirMissile\GoliathAirMissile.m3"/>
@@ -18,23 +14,7 @@
         <Image value="Assets\Textures\GoliathMercenaryPortrait_Static.dds"/>
         <Lighting value="GoliathMercenaryPortrait"/>
     </CModel>
-    <CModel id="Invisible2">
-        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
-        <EditorCategories value="Race:Neutral"/>
-        <Flags index="TeenSafe" value="1"/>
-        <Radius value="-1.000000"/>
-        <SelectionRadius value="0.000000"/>
-        <ShadowRadius value="0.000000"/>
-    </CModel>
     <CModel id="Invisible3">
-        <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
-        <EditorCategories value="Race:Neutral"/>
-        <Flags index="TeenSafe" value="1"/>
-        <Radius value="-1.000000"/>
-        <SelectionRadius value="0.000000"/>
-        <ShadowRadius value="0.000000"/>
-    </CModel>
-    <CModel id="Invisible4">
         <Model value="Assets\Units\Test\InvisibleUnit\InvisibleUnit.m3"/>
         <EditorCategories value="Race:Neutral"/>
         <Flags index="TeenSafe" value="1"/>
@@ -89,23 +69,7 @@
         <Image value="Assets\Textures\MarineMercenaryPortrait_Static.dds"/>
         <Lighting value="MarineMercenaryPortrait"/>
     </CModel>
-    <CModel id="ProtossSmallUnitDeathLow2" parent="UnitDeath" Race="Protoss">
-        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <ScaleMax value="1.250000,1.250000,1.250000"/>
-        <ScaleMin value="1.250000,1.250000,1.250000"/>
-        <SelectionRadius value="0.400000"/>
-        <ShadowRadius value="0.400000"/>
-    </CModel>
     <CModel id="ProtossSmallUnitDeathLow3" parent="UnitDeath" Race="Protoss">
-        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <ScaleMax value="1.250000,1.250000,1.250000"/>
-        <ScaleMin value="1.250000,1.250000,1.250000"/>
-        <SelectionRadius value="0.400000"/>
-        <ShadowRadius value="0.400000"/>
-    </CModel>
-    <CModel id="ProtossSmallUnitDeathLow4" parent="UnitDeath" Race="Protoss">
         <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.250000,1.250000,1.250000"/>
@@ -120,64 +84,6 @@
         <ScaleMin value="1.250000,1.250000,1.250000"/>
         <SelectionRadius value="0.400000"/>
         <ShadowRadius value="0.400000"/>
-    </CModel>
-    <CModel id="Raven2" parent="Unit" Race="Terran">
-        <Model value="Assets\Units\Terran\Raven\Raven.m3"/>
-        <Occlusion value="Show"/>
-        <PlanetPanelCamera value="Star2CameraLow09"/>
-        <Radius value="0.625000"/>
-        <ScaleMax value="0.800000,0.800000,0.800000"/>
-        <ScaleMin value="0.800000,0.800000,0.800000"/>
-        <SelectionOffset value="0.000000,0.000000,-0.350000"/>
-        <SelectionRadius value="0.781200"/>
-        <ShadowRadius value="0.781200"/>
-        <TechPurchaseCamera value="Star2CameraLow09"/>
-        <UnitGlossaryCamera value="Star2CameraLow09"/>
-    </CModel>
-    <CModel id="RavenDeath2" parent="UnitDeath">
-        <Model value="Assets\Units\Terran\RavenDeathEx1\RavenDeathEx1.m3"/>
-        <LowQualityModel value="TerranLargeUnitDeathLow"/>
-        <EditorCategories value="Race:Terran"/>
-        <Events>
-            <Variation value="1"/>
-            <Anim value="Death,02"/>
-            <Name value="Uni_DeathFXincidentallFire"/>
-            <Type value="Sound"/>
-            <Time value="0.700000"/>
-            <Payload value="Uni_DeathFXincidentallFire"/>
-        </Events>
-        <Events>
-            <Variation value="1"/>
-            <Anim value="Death,04"/>
-            <Name value="Uni_DeathFXincidentallFire"/>
-            <Type value="Sound"/>
-            <Time value="0.600000"/>
-            <Payload value="Uni_DeathFXincidentallFire"/>
-        </Events>
-        <Events>
-            <Anim value="Death,03"/>
-            <Name value="Terran_ExplosionSmall"/>
-            <Type value="Sound"/>
-            <Time value="0.720000"/>
-            <Payload value="Terran_ExplosionSmall"/>
-        </Events>
-        <Occlusion value="Show"/>
-        <VariationCount value="2"/>
-    </CModel>
-    <CModel id="RavenDeathRagdoll2" parent="UnitDeathRagdoll" Race="Terran">
-        <Model value="Assets\Units\Terran\RavenDeathRagdoll\RavenDeathRagdoll.m3"/>
-        <PhysicsDeathMotionFactor value="1.200000,0.100000"/>
-    </CModel>
-    <CModel id="RavenPortrait2" parent="FXAPortrait" Race="Terran">
-        <Model value="Assets\Portraits\Terran\RavenPortrait\RavenPortrait.m3"/>
-        <Image value="Assets\Textures\RavenPortrait_Static.dds"/>
-        <Lighting value="RavenPortrait"/>
-    </CModel>
-    <CModel id="SCVPortrait2" parent="FXAPortrait" Race="Terran">
-        <Model value="Assets\Portraits\Terran\SCVPortrait\SCVPortrait.m3"/>
-        <FacialController value="LocalizedData\Facial\SCVPortrait.fxa"/>
-        <Image value="Assets\Textures\SCVPortrait_Static.dds"/>
-        <Lighting value="SCVPortrait"/>
     </CModel>
     <CModel id="SiegeBreakerSiegedAttackImpact">
         <Radius value="2.500000"/>
@@ -266,23 +172,7 @@
         <Model value="Assets\Effects\Terran\StimpackEndImpact\StimpackEndImpact.m3"/>
         <EditorCategories value="Race:Terran"/>
     </CModel>
-    <CModel id="TerranSmallUnitDeathLow2" parent="UnitDeath" Race="Terran">
-        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <ScaleMax value="1.100000,1.100000,1.100000"/>
-        <ScaleMin value="1.100000,1.100000,1.100000"/>
-        <SelectionRadius value="0.454300"/>
-        <ShadowRadius value="0.454300"/>
-    </CModel>
     <CModel id="TerranSmallUnitDeathLow3" parent="UnitDeath" Race="Terran">
-        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <ScaleMax value="1.100000,1.100000,1.100000"/>
-        <ScaleMin value="1.100000,1.100000,1.100000"/>
-        <SelectionRadius value="0.454300"/>
-        <ShadowRadius value="0.454300"/>
-    </CModel>
-    <CModel id="TerranSmallUnitDeathLow4" parent="UnitDeath" Race="Terran">
         <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <ScaleMax value="1.100000,1.100000,1.100000"/>
@@ -318,25 +208,7 @@
         <ShadowRadius value="0.340800"/>
         <UnitGlossaryCamera value="Star2CameraMid03"/>
     </CModel>
-    <CModel id="ZergSmallUnitDeathLow2" parent="UnitDeath" Race="Zerg">
-        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <Occlusion value="Show"/>
-        <ScaleMax value="0.800000,0.800000,0.800000"/>
-        <ScaleMin value="0.800000,0.800000,0.800000"/>
-        <SelectionRadius value="0.625000"/>
-        <ShadowRadius value="0.625000"/>
-    </CModel>
     <CModel id="ZergSmallUnitDeathLow3" parent="UnitDeath" Race="Zerg">
-        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
-        <Flags index="TeenSafe" value="1"/>
-        <Occlusion value="Show"/>
-        <ScaleMax value="0.800000,0.800000,0.800000"/>
-        <ScaleMin value="0.800000,0.800000,0.800000"/>
-        <SelectionRadius value="0.625000"/>
-        <ShadowRadius value="0.625000"/>
-    </CModel>
-    <CModel id="ZergSmallUnitDeathLow4" parent="UnitDeath" Race="Zerg">
         <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
         <Flags index="TeenSafe" value="1"/>
         <Occlusion value="Show"/>

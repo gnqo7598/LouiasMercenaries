@@ -2,7 +2,7 @@
 // 
 // Generated Map Script
 // 
-// Name:   
+// Name:   ???????????? ??????(Remake)
 // 
 //==================================================================================================
 include "TriggerLibs/NativeLib"
@@ -722,6 +722,7 @@ bool gt_Init02Technology_Func (bool testConds, bool runActions) {
     }
 
     libCamp_gf_SetTechRestrictionsCallback(TriggerGetCurrent());
+    TechTreeAbilityAllow(gv_pLAYER_MELEE, AbilityCommand("StarportTrain", 3), false);
     TechTreeAbilityAllow(gv_pLAYER_MELEE, AbilityCommand("HeroArmNuke", 0), false);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "ShieldWall", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "Stimpack", 1);
@@ -751,10 +752,6 @@ bool gt_Init02Technology_Func (bool testConds, bool runActions) {
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "HunterSeeker", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "DurableMaterials", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "RavenCorvidReactor", 1);
-    libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "BattlecruiserEnableSpecializations", 1);
-    libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "BattlecruiserBehemothReactor", 1);
-    libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "RegenerativeBioSteelBattlecruiser", 1);
-    libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "YamatoCannon", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "NeosteelFrame", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "NeoSteelFrame", 1);
     libNtve_gf_SetUpgradeLevelForPlayer(gv_pLAYER_MELEE, "FireSuppressionSystems", 1);
@@ -872,6 +869,16 @@ bool gt_Init03Units_Func (bool testConds, bool runActions) {
         if (auto939D666D_var == null) { break; }
         gf_ActivateHybridAI(auto939D666D_var);
     }
+    CatalogFieldValueSet(c_gameCatalogUnit, "Omegalisk", "LifeMax", gv_pLAYER_07_ZERG, "2500");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Omegalisk", "LifeStart", gv_pLAYER_07_ZERG, "2500");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Omegalisk", "LifeArmor", gv_pLAYER_07_ZERG, "5");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Omegalisk", "Speed", gv_pLAYER_07_ZERG, "3.1992");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Brutalisk", "LifeMax", gv_pLAYER_07_ZERG, "2125");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Brutalisk", "LifeStart", gv_pLAYER_07_ZERG, "2125");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Brutalisk", "LifeRegenRate", gv_pLAYER_07_ZERG, "4");
+    CatalogFieldValueSet(c_gameCatalogUnit, "Brutalisk", "Speed", gv_pLAYER_07_ZERG, "3.1992");
+    CatalogFieldValueSet(c_gameCatalogWeapon, "Brutalize", "Range", gv_pLAYER_07_ZERG, "2");
+    CatalogFieldValueSet(c_gameCatalogEffect, "FerociousSpewDamage", "Amount", gv_pLAYER_07_ZERG, "50");
     libVCMI_gf_SetUnitInfoTextCampaign(gv_kelMorianFortress, StringExternal("Param/Value/BB0FB409"), StringExternal("Param/Value/17D08F63"), null);
     auto68BF081E_g = gv_allyPlayers;
     auto68BF081E_var = -1;
@@ -1072,10 +1079,6 @@ bool gt_Init07Help_Func (bool testConds, bool runActions) {
     while (true) {
         auto1F597FD5_var = PlayerGroupNextPlayer(auto1F597FD5_g, auto1F597FD5_var);
         if (auto1F597FD5_var < 0) { break; }
-        if ((PlayerType(auto1F597FD5_var) == c_playerTypeUser)) {
-            lv_text = (lv_text + TextWithColor(PlayerName(auto1F597FD5_var), libNtve_gf_ConvertPlayerColorToColor(PlayerGetColorIndex(auto1F597FD5_var, false))) + StringExternal("Param/Value/B60262A3") + StringToText(PlayerHandle(auto1F597FD5_var)) + StringExternal("Param/Value/8BE9EF7B"));
-        }
-
         if ((PlayerHandle(auto1F597FD5_var) == "3-S2-1-5300439")) {
             UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/DBAFA54D"));
             SoundPlayForPlayer(SoundLink("Thor_Attack", -1), c_maxPlayers, PlayerGroupAll(), 100.0, 0.0);

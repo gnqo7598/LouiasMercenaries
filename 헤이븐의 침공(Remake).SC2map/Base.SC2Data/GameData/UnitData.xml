@@ -21,12 +21,6 @@
         </CardLayouts>
         <!--BehaviorArray Link="FireSuppressionSystem"/-->
     </CUnit>
-    <CUnit id="Brutalisk">
-        <LifeRegenRate value="4"/>
-        <Speed value="3.1992"/>
-        <LifeStart value="2125"/>
-        <LifeMax value="2125"/>
-    </CUnit>
     <CUnit id="Civilian">
         <Sight value="10"/>
         <CardLayouts index="0">
@@ -47,22 +41,8 @@
         <AbilArray Link="Railgunfire"/>
         <BehaviorArray Link="Detector10"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5">
-                <Face value="SOAPurification"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="TossGrenade,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="2"/>
-            </LayoutButtons>
-            <LayoutButtons index="6">
-                <Face value="VoidImmortalSuperCannons"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="Fireup,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="0"/>
-            </LayoutButtons>
+            <LayoutButtons index="5" Face="SOAPurification" Type="AbilCmd" AbilCmd="TossGrenade,Execute" Requirements="" Column="2"/>
+            <LayoutButtons index="6" Face="VoidImmortalSuperCannons" Type="AbilCmd" AbilCmd="Fireup,Execute" Requirements="" Column="0"/>
             <LayoutButtons Face="SupportRailgun" Type="AbilCmd" AbilCmd="Railgunfire,Execute" Row="2" Column="3"/>
             <LayoutButtons Face="MercSkillRequirements" Type="Passive" Row="1" Column="4"/>
             <LayoutButtons Face="LokiYamatoGun" Type="AbilCmd" AbilCmd="LokiYamato,Execute" Row="2" Column="1"/>
@@ -72,7 +52,7 @@
         <CardLayouts index="0">
             <LayoutButtons index="0" Face="SiegeTank" AbilCmd="FactoryTrain,Train2" Column="1"/>
             <LayoutButtons index="1" Face="HellionTank" AbilCmd="FactoryTrain,Train7" Column="0"/>
-            <LayoutButtons index="2" Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
+            <LayoutButtons index="2" Face="Rally" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
             <LayoutButtons index="3" Face="Lift" AbilCmd="FactoryLiftOff,Execute" Row="2" Column="3"/>
             <LayoutButtons index="4" Face="Halt" AbilCmd="BuildInProgress,Halt"/>
             <LayoutButtons index="5" Face="Reactor" AbilCmd="FactoryAddOns,Build2" Column="1"/>
@@ -110,22 +90,8 @@
         <AbilArray Link="SuperStimpackMarauder"/>
         <BehaviorArray Link="Detector10"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5">
-                <Face value="HunterSeekerMissile"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="SeekerMissile2,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="2"/>
-            </LayoutButtons>
-            <LayoutButtons index="6">
-                <Face value="ExplosiveShrapnelShells"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="LangeBomb,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons index="5" Face="HunterSeekerMissile" Type="AbilCmd" AbilCmd="SeekerMissile2,Execute" Requirements="" Column="2"/>
+            <LayoutButtons index="6" Face="ExplosiveShrapnelShells" Type="AbilCmd" AbilCmd="LangeBomb,Execute" Requirements=""/>
             <LayoutButtons Face="KaraxEmergencyShield" Type="AbilCmd" AbilCmd="ImmortalOverload,Execute" Row="2" Column="3"/>
             <LayoutButtons Face="MercSkillRequirements" Type="Passive" Row="1" Column="4"/>
             <LayoutButtons Face="SuperStimpackMarauder" Type="AbilCmd" AbilCmd="SuperStimpackMarauder,Execute" Row="2" Column="0"/>
@@ -167,10 +133,10 @@
         <BehaviorArray Link="OutOfCombatEnergyRegen"/>
         <WeaponArray Link="MengskWraithG"/>
         <CardLayouts index="0">
-            <LayoutButtons index="4" Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
-            <LayoutButtons index="5" Face="MercMedicHeal" Type="AbilCmd" AbilCmd="MercMedicHeal,Execute" Row="2" Column="0"/>
-            <LayoutButtons index="6" Face="VoidSentryChronoBeam" Type="AbilCmd" AbilCmd="VoidSentryChronoBeam,Execute" Row="2" Column="1"/>
-            <LayoutButtons index="7" Face="NovaGadgetFlashBangGrenades" Type="AbilCmd" AbilCmd="NovaGadgetFlashBangGrenades,Execute" Row="2" Column="2"/>
+            <LayoutButtons index="4" Face="MovePatrol" AbilCmd="move,Patrol" Column="3"/>
+            <LayoutButtons index="5" Face="MercMedicHeal" AbilCmd="MercMedicHeal,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="6" Face="VoidSentryChronoBeam" AbilCmd="VoidSentryChronoBeam,Execute" Column="1"/>
+            <LayoutButtons index="7" Face="NovaGadgetFlashBangGrenades" AbilCmd="NovaGadgetFlashBangGrenades,Execute" Column="2"/>
             <LayoutButtons index="8">
                 <Face value="K5VampiricAura"/>
                 <Type value="AbilCmd"/>
@@ -196,19 +162,13 @@
         <AbilArray Link="VultureSpiderMines"/>
         <BehaviorArray Link="Detector10"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="JetPack" Type="Passive" AbilCmd="255,255" Row="1" Column="1"/>
-            <LayoutButtons index="6" Face="ReaperSpeed" Type="AbilCmd" AbilCmd="reapernitro,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="5" AbilCmd="255,255" Row="1"/>
+            <LayoutButtons index="6" Face="ReaperSpeed" AbilCmd="reapernitro,Execute"/>
             <LayoutButtons Face="TornadoMissile" Type="AbilCmd" AbilCmd="LokiMissilePods,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="SpiderMine" Type="AbilCmd" AbilCmd="VultureSpiderMines,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="TitanMechBombardment" Type="AbilCmd" AbilCmd="TitanMechBombardment,Execute" Row="2" Column="3"/>
             <LayoutButtons Face="MercSkillRequirements" Type="Passive" Row="1" Column="4"/>
         </CardLayouts>
-    </CUnit>
-    <CUnit id="Omegalisk">
-        <LifeStart value="2500"/>
-        <LifeMax value="2500"/>
-        <LifeArmor value="5"/>
-        <Speed value="3.1992"/>
     </CUnit>
     <CUnit id="SpecialPointDefenseDrone">
         <Race value="Terr"/>
@@ -260,7 +220,7 @@
         <CardLayouts index="0">
             <LayoutButtons Face="BuildingRequirements" Type="Passive" Row="1" Column="4"/>
         </CardLayouts>
-        <CardLayouts index="2" CardId="TBl2">
+        <CardLayouts index="2">
             <LayoutButtons index="6" removed="1"/>
             <LayoutButtons index="7" removed="1"/>
         </CardLayouts>
@@ -299,9 +259,7 @@
         </CardLayouts>
     </CUnit>
     <CUnit id="SpartanCompanyAWeapon2" parent="MISSILE">
-        <Race value="Campaign"/>
         <Mover value="GoliathMissile2"/>
-        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
     </CUnit>
     <CUnit id="Spectre">
         <LifeStart value="200"/>
@@ -316,12 +274,12 @@
         <AbilArray Link="NovaWeaponCanisterRifleSnipe"/>
         <BehaviorArray Link="Detector10"/>
         <CardLayouts index="0">
-            <LayoutButtons index="4" Face="AttackGhost" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
-            <LayoutButtons index="5" Face="SpectreHoldFire" Type="AbilCmd" AbilCmd="SpectreHoldFire,Execute" Row="1" Column="2"/>
-            <LayoutButtons index="6" Face="SpectreWeaponsFree" Type="AbilCmd" AbilCmd="SpectreWeaponsFree,Execute" Row="1" Column="3"/>
-            <LayoutButtons index="7" Face="SpecialPointDefenseDrone" Type="AbilCmd" AbilCmd="PlaceSpecialPointDefenseDrone,Execute" Row="2" Column="3"/>
-            <LayoutButtons index="8" Face="VoodooShield" Type="AbilCmd" AbilCmd="VoodooShield2,Execute" Row="2" Column="1"/>
-            <LayoutButtons index="9" Face="MercSkillRequirements" Type="Passive" AbilCmd="" Row="1" Column="4"/>
+            <LayoutButtons index="4" Face="AttackGhost" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons index="5" Face="SpectreHoldFire" AbilCmd="SpectreHoldFire,Execute" Row="1"/>
+            <LayoutButtons index="6" Face="SpectreWeaponsFree" AbilCmd="SpectreWeaponsFree,Execute" Row="1" Column="3"/>
+            <LayoutButtons index="7" Face="SpecialPointDefenseDrone" AbilCmd="PlaceSpecialPointDefenseDrone,Execute" Column="3"/>
+            <LayoutButtons index="8" Face="VoodooShield" AbilCmd="VoodooShield2,Execute" Row="2" Column="1"/>
+            <LayoutButtons index="9" Face="MercSkillRequirements" Type="Passive" AbilCmd="" Column="4"/>
             <LayoutButtons index="10">
                 <Face value="UltrasonicPulse"/>
                 <Type value="AbilCmd"/>
@@ -330,7 +288,7 @@
                 <Row value="2"/>
                 <Column value="2"/>
             </LayoutButtons>
-            <LayoutButtons index="11" Face="NovaSnipe" Type="AbilCmd" AbilCmd="NovaWeaponCanisterRifleSnipe,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="11" Face="NovaSnipe" AbilCmd="NovaWeaponCanisterRifleSnipe,Execute"/>
             <LayoutButtons index="12" removed="1"/>
             <LayoutButtons index="13" removed="1"/>
         </CardLayouts>
@@ -349,7 +307,7 @@
             <LayoutButtons index="0" Row="0" Column="0"/>
             <LayoutButtons index="1" Row="0" Column="1"/>
             <LayoutButtons index="2" Column="3"/>
-            <LayoutButtons index="3" Row="1" Column="0"/>
+            <LayoutButtons index="3" Row="1"/>
             <LayoutButtons index="4" Row="1" Column="1"/>
             <LayoutButtons index="14">
                 <Face value="Liberator"/>

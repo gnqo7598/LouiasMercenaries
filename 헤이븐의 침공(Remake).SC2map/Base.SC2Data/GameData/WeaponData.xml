@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
-    <CWeaponLegacy id="Brutalize">
-        <Range value="2"/>
-    </CWeaponLegacy>
     <CWeaponLegacy id="DevilDogFlameThrower">
         <Icon value="Assets\Textures\btn-upgrade-raynor-incineratorgauntlets.dds"/>
     </CWeaponLegacy>
