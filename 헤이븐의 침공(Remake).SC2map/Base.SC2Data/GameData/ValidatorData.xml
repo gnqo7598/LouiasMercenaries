@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CValidatorUnitCompareCargo id="IsTransportFull2">
+        <WhichUnit Value="Caster"/>
+        <Type value="Used"/>
+    </CValidatorUnitCompareCargo>
+</Catalog>

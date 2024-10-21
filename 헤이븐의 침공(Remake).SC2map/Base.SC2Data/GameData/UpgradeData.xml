@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="CombatShield2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Reference="Unit,Marine,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,Marine,LifeStart" Value="10"/>
+        <EffectArray Operation="Set" Reference="Actor,Marine,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-terran-marine-shield.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,Marine,Wireframe.Image[0]" Value="Assets\Textures\wireframe-terran-marine-shield.dds"/>
+        <EffectArray Reference="Unit,WarPig3,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,WarPig3,LifeStart" Value="10"/>
+        <EffectArray Operation="Set" Reference="Actor,KelmorianMiner,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-terran-marine-mercenary-shield.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,KelmorianMiner,Wireframe.Image[0]" Value="Assets\Textures\wireframe-terran-marine-mercenary-shield.dds"/>
+        <EffectArray Reference="Unit,MengskMarine,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,MengskMarine,LifeStart" Value="10"/>
+        <EffectArray Operation="Set" Reference="Actor,MengskMarine,GroupIcon.Image[0]" Value="Assets\Textures\wireframe-terran-marine-mercenary-shield.dds"/>
+        <EffectArray Operation="Set" Reference="Actor,MengskMarine,Wireframe.Image[0]" Value="Assets\Textures\wireframe-terran-marine-mercenary-shield.dds"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+        <AffectedUnitArray value="Marine"/>
+        <AffectedUnitArray value="WarPig3"/>
+        <AffectedUnitArray value="MengskMarine"/>
+    </CUpgrade>
+    <CUpgrade id="HiSecAutoTracking2" parent="HiSecAutoTracking">
+        <Name value="Upgrade/Name/HiSecAutoTracking2"/>
+        <EffectArray index="2" Reference="Weapon,AutoTurret2,Range"/>
+    </CUpgrade>
+    <CUpgrade id="KillOmegaup">
+        <Race value="Terr"/>
+        <EffectArray Reference="Unit,DevilDog,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,Spectre,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,DevilDog,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercMarine,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,MercMedic,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,MercReaper,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,Spectre,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeArmor" Value="4"/>
+        <EffectArray Reference="Unit,MercMarine,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercMedic,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercReaper,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,DevilDog,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercMarine,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercMedic,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercReaper,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,Spectre,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeMax" Value="50"/>
+    </CUpgrade>
+    <CUpgrade id="KillOmegaup2">
+        <Race value="Terr"/>
+        <EffectArray Reference="Unit,Spectre,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,DevilDog,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercMarine,LifeRegenRate" Value="1.199200"/>
+        <EffectArray Reference="Unit,MercMarine,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercMedic,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,MercReaper,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,DevilDog,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercMarine,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercMedic,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercReaper,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,Spectre,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,MercMedic,LifeRegenRate" Value="1.199200"/>
+        <EffectArray Reference="Unit,MercReaper,LifeRegenRate" Value="1.199200"/>
+        <EffectArray Reference="Unit,Spectre,LifeRegenRate" Value="1.199200"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeRegenRate" Value="1.199200"/>
+        <EffectArray Operation="Set" Reference="Unit,DevilDog,LifeRegenRate" Value="0.500000"/>
+        <LeaderAlias value="KillOmegaup"/>
+    </CUpgrade>
+    <CUpgrade id="KineticFields2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Reference="Unit,Diamondback,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Vulture,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeTank,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeTankSieged,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Thor,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,Hellion,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SpartanCompany2,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeBreaker,LifeArmor" Value="1.000000"/>
+        <EffectArray Reference="Unit,SiegeBreakerSieged,LifeArmor" Value="1.000000"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="RegenerativeBioSteel2">
+        <Flags index="UpgradeCheat" value="0"/>
+        <EffectArray Operation="Set" Reference="Unit,Hellion,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Hellion,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeTank,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeTank,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeTankSieged,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeTankSieged,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Thor,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Thor,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Diamondback,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Diamondback,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Vulture,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Vulture,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Goliath,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Goliath,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Predator,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Predator,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeBreaker,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeBreaker,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeBreakerSieged,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,SiegeBreakerSieged,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,VikingAssault,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,VikingAssault,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,VikingFighter,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,VikingFighter,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Banshee,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Banshee,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Medivac,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Medivac,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Battlecruiser,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Battlecruiser,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Raven,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Raven,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,ScienceVessel,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,ScienceVessel,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Hercules,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Hercules,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,SpartanCompany2,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,SpartanCompany2,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,HelsAngelAssault,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HelsAngelAssault,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,HelsAngelFighter,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HelsAngelFighter,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,DukesRevenge,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,DukesRevenge,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,DuskWing,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,DuskWing,LifeRegenRate" Value="0.601500"/>
+        <EffectArray Operation="Set" Reference="Unit,Wraith,LifeRegenDelay" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Wraith,LifeRegenRate" Value="0.601500"/>
+        <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel1">
+        <EffectArray index="67" Reference="Unit,WarPig,LifeArmorLevel"/>
+        <EffectArray index="68" Reference="Unit,WarPig,LifeArmor"/>
+        <EffectArray index="69" Reference="Unit,DominionKillTeam,LifeArmorLevel"/>
+        <EffectArray index="70" Reference="Unit,DominionKillTeam,LifeArmor"/>
+        <EffectArray index="71" Reference="Unit,RaynorCommando,LifeArmorLevel"/>
+        <EffectArray index="72" Reference="Unit,RaynorCommando,LifeArmor"/>
+        <EffectArray index="73" Reference="Unit,Raynor,LifeArmorLevel"/>
+        <EffectArray index="74" Reference="Unit,Raynor,LifeArmor"/>
+        <EffectArray index="75" Reference="Unit,TychusCommando,LifeArmorLevel"/>
+        <EffectArray index="76" Reference="Unit,TychusCommando,LifeArmor"/>
+        <EffectArray index="77" Reference="Unit,TychusChaingun,LifeArmorLevel"/>
+        <EffectArray index="78" Reference="Unit,TychusChaingun,LifeArmor"/>
+        <EffectArray index="79" Reference="Unit,Swann,LifeArmorLevel"/>
+        <EffectArray index="80" Reference="Unit,Swann,LifeArmor"/>
+        <EffectArray index="81" Reference="Unit,Stetmann,LifeArmorLevel"/>
+        <EffectArray index="82" Reference="Unit,Stetmann,LifeArmor"/>
+        <EffectArray index="83" Reference="Unit,Nova,LifeArmorLevel"/>
+        <EffectArray index="84" Reference="Unit,Nova,LifeArmor"/>
+        <EffectArray index="85" Reference="Unit,Tosh,LifeArmorLevel"/>
+        <EffectArray index="86" Reference="Unit,Tosh,LifeArmor"/>
+        <EffectArray index="87" Reference="Unit,MengskMarine,LifeArmorLevel"/>
+        <EffectArray index="88" Reference="Unit,MengskMarine,LifeArmor"/>
+        <EffectArray index="89" Reference="Unit,MengskMarauder,LifeArmorLevel"/>
+        <EffectArray index="90" Reference="Unit,MengskMarauder,LifeArmor"/>
+        <EffectArray index="91" Reference="Unit,MengskFirebat,LifeArmorLevel"/>
+        <EffectArray index="92" Reference="Unit,MengskFirebat,LifeArmor"/>
+        <EffectArray index="93" Reference="Unit,MengskMedic,LifeArmorLevel"/>
+        <EffectArray index="94" Reference="Unit,MengskMedic,LifeArmor"/>
+        <EffectArray index="95" Reference="Unit,MengskReaper,LifeArmorLevel"/>
+        <EffectArray index="96" Reference="Unit,MengskReaper,LifeArmor"/>
+        <EffectArray index="97" Operation="Set" Reference="Actor,MengskMarine,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="98" Operation="Set" Reference="Actor,MengskMarauder,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="99" Operation="Set" Reference="Actor,MengskFirebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="100" Operation="Set" Reference="Actor,MengskMedic,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="101" Operation="Set" Reference="Actor,MengskReaper,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="102" Operation="Set" Reference="Actor,Firebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray index="103" Reference="Actor,Medic,LifeArmorIcon"/>
+        <EffectArray index="104" Reference="Actor,SpecterUnit,LifeArmorIcon"/>
+        <EffectArray index="105" Reference="Actor,KelmorianMiner,LifeArmorIcon"/>
+        <EffectArray index="106" Reference="Actor,HammerSecurity,LifeArmorIcon"/>
+        <EffectArray index="107" Reference="Actor,DevilDog,LifeArmorIcon"/>
+        <EffectArray index="108" Reference="Actor,DominionKillTeam,LifeArmorIcon"/>
+        <EffectArray index="109" Reference="Actor,RaynorCommando,LifeArmorIcon"/>
+        <EffectArray index="110" Reference="Actor,Raynor,LifeArmorIcon"/>
+        <EffectArray index="111" Reference="Actor,TychusCommando,LifeArmorIcon"/>
+        <EffectArray index="112" Reference="Actor,TychusChaingun,LifeArmorIcon"/>
+        <EffectArray index="113" Reference="Actor,Dutch,LifeArmorIcon"/>
+        <EffectArray index="114" Reference="Actor,Bones,LifeArmorIcon"/>
+        <EffectArray index="115" Reference="Actor,Nova,LifeArmorIcon"/>
+        <EffectArray index="116" Reference="Actor,Tosh,LifeArmorIcon"/>
+        <EffectArray index="117" Reference="Actor,HERC,LifeArmorIcon"/>
+        <EffectArray index="118" Operation="Add" Reference="Unit,HERC,LifeArmor" Value="1"/>
+        <EffectArray index="119" Operation="Add" Reference="Unit,HERC,LifeArmorLevel" Value="1"/>
+        <EffectArray index="120" Reference="Actor,GhostAlternate,LifeArmorIcon"/>
+        <EffectArray index="121" Operation="Add" Reference="Unit,GhostAlternate,LifeArmor" Value="1"/>
+        <EffectArray index="122" Operation="Add" Reference="Unit,MercMarine,Acceleration" Value="1.000000"/>
+        <EffectArray index="123" Operation="Add" Reference="Unit,MercMarine,LifeArmor" Value="1"/>
+        <EffectArray index="124" Reference="Unit,MercMedic,LifeArmorLevel" Value="1"/>
+        <EffectArray index="125" Reference="Unit,MercMedic,LifeArmor" Value="1"/>
+        <EffectArray index="126" Operation="Add" Reference="Unit,MercReaper,LifeArmor" Value="1"/>
+        <EffectArray index="127" Reference="Unit,MercReaper,LifeArmorLevel" Value="1"/>
+        <EffectArray index="128" removed="1"/>
+        <EffectArray index="129" removed="1"/>
+        <EffectArray index="130" removed="1"/>
+        <EffectArray index="131" removed="1"/>
+        <EffectArray index="132" removed="1"/>
+        <EffectArray index="133" removed="1"/>
+        <EffectArray index="134" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel2">
+        <EffectArray index="22" Reference="Unit,MercReaper,LifeArmorLevel"/>
+        <EffectArray index="67" Reference="Unit,WarPig,LifeArmorLevel"/>
+        <EffectArray index="68" Reference="Unit,WarPig,LifeArmor"/>
+        <EffectArray index="69" Reference="Unit,DominionKillTeam,LifeArmorLevel"/>
+        <EffectArray index="70" Reference="Unit,DominionKillTeam,LifeArmor"/>
+        <EffectArray index="71" Reference="Unit,RaynorCommando,LifeArmorLevel"/>
+        <EffectArray index="72" Reference="Unit,RaynorCommando,LifeArmor"/>
+        <EffectArray index="73" Reference="Unit,Raynor,LifeArmorLevel"/>
+        <EffectArray index="74" Reference="Unit,Raynor,LifeArmor"/>
+        <EffectArray index="75" Reference="Unit,TychusCommando,LifeArmorLevel"/>
+        <EffectArray index="76" Reference="Unit,TychusCommando,LifeArmor"/>
+        <EffectArray index="77" Reference="Unit,TychusChaingun,LifeArmorLevel"/>
+        <EffectArray index="78" Reference="Unit,TychusChaingun,LifeArmor"/>
+        <EffectArray index="79" Reference="Unit,Swann,LifeArmorLevel"/>
+        <EffectArray index="80" Reference="Unit,MercMarine,LifeArmor"/>
+        <EffectArray index="81" Reference="Unit,Stetmann,LifeArmorLevel"/>
+        <EffectArray index="82" Reference="Unit,Stetmann,LifeArmor"/>
+        <EffectArray index="83" Reference="Unit,Nova,LifeArmorLevel"/>
+        <EffectArray index="84" Reference="Unit,Nova,LifeArmor"/>
+        <EffectArray index="85" Reference="Unit,Tosh,LifeArmorLevel"/>
+        <EffectArray index="86" Reference="Unit,Tosh,LifeArmor"/>
+        <EffectArray index="87" Reference="Unit,MengskMarine,LifeArmorLevel"/>
+        <EffectArray index="88" Reference="Unit,MengskMarine,LifeArmor"/>
+        <EffectArray index="89" Reference="Unit,MengskMarauder,LifeArmorLevel"/>
+        <EffectArray index="90" Reference="Unit,MengskMarauder,LifeArmor"/>
+        <EffectArray index="91" Reference="Unit,MengskFirebat,LifeArmorLevel"/>
+        <EffectArray index="92" Reference="Unit,MengskFirebat,LifeArmor"/>
+        <EffectArray index="93" Reference="Unit,MengskMedic,LifeArmorLevel"/>
+        <EffectArray index="94" Reference="Unit,MengskMedic,LifeArmor"/>
+        <EffectArray index="95" Reference="Unit,MengskReaper,LifeArmorLevel"/>
+        <EffectArray index="96" Reference="Unit,MengskReaper,LifeArmor"/>
+        <EffectArray index="97" Operation="Set" Reference="Actor,MengskMarine,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="98" Operation="Set" Reference="Actor,MengskMarauder,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="99" Operation="Set" Reference="Actor,MengskFirebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="100" Operation="Set" Reference="Actor,MengskMedic,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="101" Operation="Set" Reference="Actor,MengskReaper,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="102" Operation="Set" Reference="Actor,Firebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray index="103" Reference="Actor,Medic,LifeArmorIcon"/>
+        <EffectArray index="104" Reference="Actor,SpecterUnit,LifeArmorIcon"/>
+        <EffectArray index="105" Reference="Actor,KelmorianMiner,LifeArmorIcon"/>
+        <EffectArray index="106" Reference="Actor,HammerSecurity,LifeArmorIcon"/>
+        <EffectArray index="107" Reference="Actor,DevilDog,LifeArmorIcon"/>
+        <EffectArray index="108" Reference="Actor,DominionKillTeam,LifeArmorIcon"/>
+        <EffectArray index="109" Reference="Actor,RaynorCommando,LifeArmorIcon"/>
+        <EffectArray index="110" Reference="Actor,Raynor,LifeArmorIcon"/>
+        <EffectArray index="111" Reference="Actor,TychusCommando,LifeArmorIcon"/>
+        <EffectArray index="112" Reference="Actor,TychusChaingun,LifeArmorIcon"/>
+        <EffectArray index="113" Reference="Actor,Dutch,LifeArmorIcon"/>
+        <EffectArray index="114" Reference="Actor,Bones,LifeArmorIcon"/>
+        <EffectArray index="115" Reference="Actor,Nova,LifeArmorIcon"/>
+        <EffectArray index="116" Reference="Actor,Tosh,LifeArmorIcon"/>
+        <EffectArray index="117" Reference="Actor,HERC,LifeArmorIcon"/>
+        <EffectArray index="118" Operation="Add" Reference="Unit,HERC,LifeArmor" Value="1"/>
+        <EffectArray index="119" Operation="Add" Reference="Unit,HERC,LifeArmorLevel" Value="1"/>
+        <EffectArray index="120" Reference="Actor,GhostAlternate,LifeArmorIcon"/>
+        <EffectArray index="121" Operation="Add" Reference="Unit,GhostAlternate,LifeArmor" Value="1"/>
+        <EffectArray index="122" Operation="Add" Reference="Unit,MercMarine,LifeArmorLevel" Value="1"/>
+        <EffectArray index="123" Operation="Add" Reference="Unit,MercMedic,LifeArmorLevel" Value="1"/>
+        <EffectArray index="124" Reference="Unit,MercMedic,LifeArmor" Value="1"/>
+        <EffectArray index="125" Reference="Unit,MercReaper,LifeArmor" Value="1"/>
+        <EffectArray index="126" removed="1"/>
+        <EffectArray index="127" removed="1"/>
+        <EffectArray index="128" removed="1"/>
+        <EffectArray index="129" removed="1"/>
+        <EffectArray index="130" removed="1"/>
+        <EffectArray index="131" removed="1"/>
+        <EffectArray index="132" removed="1"/>
+        <EffectArray index="133" removed="1"/>
+        <EffectArray index="134" removed="1"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel3">
+        <EffectArray index="128" Reference="Unit,MercReaper,LifeArmorLevel" Value="1"/>
+        <EffectArray index="129" Operation="Add" Reference="Unit,MercReaper,LifeArmorLevel" Value="1"/>
+        <EffectArray index="130" Reference="Unit,MercReaper,LifeArmor" Value="1"/>
+        <EffectArray index="131" Reference="Unit,MercReaper,LifeArmor" Value="1"/>
+        <EffectArray index="132" Operation="Add" Reference="Unit,MercMedic,LifeArmor" Value="1"/>
+        <EffectArray index="133" Reference="Unit,MercMedic,LifeArmor" Value="1"/>
+        <EffectArray index="134" Reference="Unit,MercMedic,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,MercMedic,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,MercMarine,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,MercMarine,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,MercMarine,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,MercMarine,LifeArmor" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="Up1">
+        <Race value="Terr"/>
+        <EffectArray Reference="Effect,KelmorianMinerDamage,Amount" Value="3"/>
+        <EffectArray Reference="Unit,MercMarine,LifeStart" Value="30"/>
+        <EffectArray Reference="Unit,MercMarine,LifeRegenRate" Value="0.121000"/>
+        <EffectArray Reference="Unit,MercMarine,LifeMax" Value="30"/>
+        <MaxLevel value="6"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+    <CUpgrade id="Up2">
+        <Race value="Terr"/>
+        <EffectArray Reference="Effect,MercReaperP38ScytheGuassPistol,Amount" Value="4"/>
+        <EffectArray Reference="Unit,MercReaper,LifeStart" Value="25"/>
+        <EffectArray Reference="Unit,MercReaper,LifeRegenRate" Value="0.121000"/>
+        <EffectArray Reference="Effect,MercReaperD8ChargeDamage,Amount" Value="10"/>
+        <EffectArray Reference="Unit,MercReaper,LifeMax" Value="25"/>
+        <MaxLevel value="6"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+    <CUpgrade id="Up3">
+        <Race value="Terr"/>
+        <EffectArray Reference="Effect,DevilDogDamage,Amount" Value="5"/>
+        <EffectArray Reference="Unit,DevilDog,LifeStart" Value="40"/>
+        <EffectArray Reference="Unit,DevilDog,LifeRegenRate" Value="0.160100"/>
+        <EffectArray Reference="Unit,DevilDog,LifeMax" Value="40"/>
+        <MaxLevel value="6"/>
+        <LeaderAlias value="Up2"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+    <CUpgrade id="Up4">
+        <Race value="Terr"/>
+        <EffectArray Reference="Effect,HammerSecurityDamage,Amount" Value="8"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeStart" Value="30"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeRegenRate" Value="0.160100"/>
+        <EffectArray Reference="Unit,HammerSecurity,LifeMax" Value="30"/>
+        <MaxLevel value="6"/>
+        <LeaderAlias value="Up2"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+    <CUpgrade id="Up5">
+        <Race value="Terr"/>
+        <EffectArray Reference="Unit,MercMedic,LifeStart" Value="25"/>
+        <EffectArray Reference="Unit,MercMedic,LifeRegenRate" Value="0.199200"/>
+        <EffectArray Reference="Unit,MercMedic,EnergyRegenRate" Value="0.199200"/>
+        <EffectArray Reference="Unit,MercMedic,LifeMax" Value="25"/>
+        <EffectArray Reference="Effect,MengskWraithGDamage,Amount" Value="4"/>
+        <MaxLevel value="6"/>
+        <LeaderAlias value="Up2"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+    <CUpgrade id="Up52">
+        <Race value="Terr"/>
+        <EffectArray Reference="Unit,Spectre,LifeStart" Value="25"/>
+        <EffectArray Reference="Unit,Spectre,LifeRegenRate" Value="0.121000"/>
+        <EffectArray Operation="Set" Reference="Unit,Spectre,LifeArmor" Value="1"/>
+        <EffectArray Reference="Effect,SpecterU,Amount" Value="6"/>
+        <EffectArray Reference="Unit,Spectre,LifeMax" Value="25"/>
+        <EffectArray Reference="Effect,NovaWeaponCanisterRifleSnipe,Amount" Value="25"/>
+        <MaxLevel value="6"/>
+        <LeaderAlias value="Up2"/>
+        <Icon value="Assets\Textures\talent-raynor-level14-infantryattackspeed.dds"/>
+    </CUpgrade>
+</Catalog>

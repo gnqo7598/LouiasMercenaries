@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="1tier">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+    </CRequirement>
+    <CRequirement id="1tier2">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+    </CRequirement>
+</Catalog>

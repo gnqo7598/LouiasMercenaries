@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="2">
+        <name value="Choose Hero - Marine"/>
+        <shape type="circle">
+            <center value="18.5026,175.5073"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="Choose Hero - Reaper"/>
+        <shape type="circle">
+            <center value="23.004,175.501"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="Choose Hero - Spectre"/>
+        <shape type="circle">
+            <center value="27.509,175.507"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="Choose Hero - Maraunder"/>
+        <shape type="circle">
+            <center value="23.0068,166.502"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Choose Hero - Firebat"/>
+        <shape type="circle">
+            <center value="18.5051,166.5034"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Choose Hero - Medic"/>
+        <shape type="circle">
+            <center value="18.504,171.0012"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="1">
+        <name value="Merc Spawn"/>
+        <shape type="circle">
+            <center value="22.5002,125.5007"/>
+            <radius value="1"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Choose Hero"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="15,165,31,178"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Medivac Spawn Region"/>
+        <color value="255,0,255,255"/>
+        <shape type="circle">
+            <center value="132.5002,126.5002"/>
+            <radius value="1.5"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Medivac Attack Region"/>
+        <color value="255,0,255,255"/>
+        <shape type="circle">
+            <center value="46.5,133"/>
+            <radius value="7.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="42,140"/>
+            <radius value="5"/>
+        </shape>
+        <shape type="circle">
+            <center value="37.5,134.5"/>
+            <radius value="7.5"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Zerg Drop Pod"/>
+        <color value="255,255,0,0"/>
+        <shape type="circle">
+            <center value="139.5002,29.5002"/>
+            <radius value="9.6171"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="Zerg Area W"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="47,77.5"/>
+            <radius value="13"/>
+        </shape>
+        <shape type="circle">
+            <center value="30.5,94.5"/>
+            <radius value="11.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="34,86.5"/>
+            <radius value="9.75"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="Zerg Area SW-1"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="44.0002,60.0002"/>
+            <radius value="9.875"/>
+        </shape>
+        <shape type="circle">
+            <center value="51,53.5"/>
+            <radius value="7.375"/>
+        </shape>
+        <shape type="circle">
+            <center value="41.5,56.5"/>
+            <radius value="9.0136"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="Zerg Area SW-2"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="46.0002,40.0002"/>
+            <radius value="13.75"/>
+        </shape>
+        <shape type="circle">
+            <center value="54,29"/>
+            <radius value="11.375"/>
+        </shape>
+        <shape type="circle">
+            <center value="41.5,29"/>
+            <radius value="11.375"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="Zerg Area N"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="96,122"/>
+            <radius value="13.124"/>
+        </shape>
+        <shape type="circle">
+            <center value="77,130"/>
+            <radius value="12.125"/>
+        </shape>
+        <shape type="circle">
+            <center value="88,124.5"/>
+            <radius value="12.125"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="Zerg Area NW"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="69.5,99"/>
+            <radius value="13.625"/>
+        </shape>
+        <shape type="circle">
+            <center value="59.5,106"/>
+            <radius value="11.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="79,92"/>
+            <radius value="13.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="75.5,88.5"/>
+            <radius value="11.4016"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="Zerg Area S-1"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="84.5002,69.0002"/>
+            <radius value="7.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="88.5,65.5"/>
+            <radius value="9.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="85,64.5"/>
+            <radius value="8.75"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="Zerg Area S-2"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="72.5002,27.0002"/>
+            <radius value="10.5476"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="Zerg Area S-3"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="88.0002,53.0002"/>
+            <radius value="9.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="84.5,55.5"/>
+            <radius value="10.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="88,58"/>
+            <radius value="7.632"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="Zerg Area S-4"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="102.5002,49.5002"/>
+            <radius value="6.875"/>
+        </shape>
+        <shape type="circle">
+            <center value="106.5,48.5"/>
+            <radius value="5.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="103.5,45"/>
+            <radius value="5.75"/>
+        </shape>
+        <shape type="circle">
+            <center value="100,47"/>
+            <radius value="6.875"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="Zerg Area S-5"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="89.0002,37.5002"/>
+            <radius value="13.75"/>
+        </shape>
+        <shape type="circle">
+            <center value="93,29.5"/>
+            <radius value="14.25"/>
+        </shape>
+        <shape type="circle">
+            <center value="98.5,38.5"/>
+            <radius value="10.5"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="Zerg Area E-1"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="111.5002,103.5002"/>
+            <radius value="8.375"/>
+        </shape>
+        <shape type="circle">
+            <center value="114,99.5"/>
+            <radius value="8.375"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="Zerg Area E-2"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="118.5002,88.5002"/>
+            <radius value="12"/>
+        </shape>
+        <shape type="circle">
+            <center value="128,88.5"/>
+            <radius value="10.5"/>
+        </shape>
+        <shape type="circle">
+            <center value="125.5,83"/>
+            <radius value="12.0415"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="Zerg Area Base"/>
+        <color value="255,255,0,0"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="125,39.5"/>
+            <radius value="18.9997"/>
+        </shape>
+        <shape type="circle">
+            <center value="139,31"/>
+            <radius value="18.75"/>
+        </shape>
+        <shape type="circle">
+            <center value="119,34"/>
+            <radius value="17.875"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="Player Base"/>
+        <color value="255,0,0,255"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="37.0002,127.5002"/>
+            <radius value="25"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Pirate Base"/>
+        <color value="255,0,255,255"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="140.605,132.0971"/>
+            <width value="33.6323"/>
+            <height value="28.98"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="Choose Hero - None 1"/>
+        <shape type="circle">
+            <center value="27.5068,171.002"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="Choose Hero - None 2"/>
+        <shape type="circle">
+            <center value="27.5068,166.502"/>
+            <radius value="0.75"/>
+        </shape>
+    </region>
+</Regions>

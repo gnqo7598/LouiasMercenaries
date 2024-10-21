@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_hard.dds" Type="Image"/>
+<Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_easy.dds" Type="Image"/>
+<Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_medium.dds" Type="Image"/>
+<Asset path="assets\textures\btn-tips-computerterminals.dds" Type="Image"/>
+<Asset path="assets\textures\wireframe-terran-factory.dds" Type="Image"/>
+<Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_veryhard.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Bonepile" Variations="3,5,7"/>
+<Actor id="CharCliffStructureSmall" Variations="0"/>
+<Actor id="DecalSpace" Variations="2"/>
+<Actor id="DesertCaveEntrance"/>
+<Actor id="JarbanMinor_FenceBarbwire" Variations="0,1,2"/>
+<Actor id="Korhal_SpacePort_Plane_Destroyed" Variations="4"/>
+<Actor id="Korhal_TarmacSplat" Variations="1"/>
+<Actor id="MilitarySupplies" Variations="1,2"/>
+<Actor id="SnowRefinery_Terran_BaseSplats" Variations="1"/>
+<Actor id="SpacePrisonPlatformBarrier" Variations="0,1,2,3"/>
+<Actor id="UmojanLabCrates" Variations="1,2,3,4"/>
+<Actor id="UmojanLabGlassWallPanel" Variations="0"/>
+<Actor id="UmojanLabHoloProjector"/>
+<Actor id="UmojanLabPillar2High" Variations="0"/>
+<Actor id="UmojanLabWallConsoles" Variations="1"/>
+<Actor id="WaterGenerator" Variations="0"/>
+<Actor id="AlarmLight" Variations="1"/>
+<Actor id="AvernusBarrier" Variations="3,4,5"/>
+<Actor id="ColonistShipAbandonedAngled" Variations="1"/>
+<Actor id="Crate" Variations="0,1,2,3,4,5"/>
+<Actor id="Decal" Variations="0,1,23"/>
+<Actor id="FanVentCliff" Variations="0"/>
+<Actor id="FireMedium"/>
+<Actor id="FishBlackFinMako" Variations="0"/>
+<Actor id="HavenDoodadsCrates" Variations="0,1,2,3,4"/>
+<Actor id="HavenTree" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="HavenUnderbrush" Variations="0,1,2,3"/>
+<Actor id="HighYieldStorage" Variations="0"/>
+<Actor id="HighYieldMineralCart" Variations="0,1,2"/>
+<Actor id="LandingLights" Variations="1"/>
+<Actor id="MarSaraMineCart"/>
+<Actor id="MiningBot"/>
+<Actor id="MiningBotWrecked" Variations="1"/>
+<Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,6,7"/>
+<Actor id="SpacePlatformFan" Variations="1"/>
+<Actor id="SpacePlatformFanLarge" Variations="1"/>
+<Actor id="SuperCrane"/>
+<Actor id="ColonistSupplies" Variations="0,1,2,4,5,6,7,8,9"/>
+<Actor id="ColonistSupplyCrate" Variations="2,4"/>
+<Actor id="ColonistHutDoodad" Variations="0,1,2,4,5,6,7"/>
+<Actor id="ColonistHutBurntOut" Variations="0,3,6,7"/>
+<Actor id="ColonistHutHalfBuilt" Variations="0,2"/>
+<Actor id="SplatAliveInside"/>
+<Actor id="TRaynor01RadarDish"/>
+<Actor id="JumpHeightBooster"/>
+<Model id="Aiur_City_HybridWarp"/>
+<Sound id="Thor_Attack"/>
+<Sound id="WarpGate_TrainFinish"/>
+<Sound id="Ping"/>
+<Sound id="UI_ObjectiveComplete"/>
+<Sound id="TranswarpStart"/>
+<Sound id="Hybrid_WarpIn"/>
+<Sound id="NydusGreater_Birth"/>
+<Sound id="NydusGreater_Birth1"/>
+<Sound id="NydusGreater_Birth2"/>
+<Terrain id="HavenEx1"/>
+<Unit id="Baneling"/>
+<Unit id="CommandCenter"/>
+<Unit id="Refinery"/>
+<Unit id="Barracks"/>
+<Unit id="MissileTurret"/>
+<Unit id="Bunker"/>
+<Unit id="MercCompound"/>
+<Unit id="SiegeTank"/>
+<Unit id="SCV"/>
+<Unit id="SupplyDepotLowered"/>
+<Unit id="Marine"/>
+<Unit id="Marauder"/>
+<Unit id="Medivac"/>
+<Unit id="Hatchery"/>
+<Unit id="Extractor"/>
+<Unit id="SpawningPool"/>
+<Unit id="EvolutionChamber"/>
+<Unit id="HydraliskDen"/>
+<Unit id="Spire"/>
+<Unit id="UltraliskCavern"/>
+<Unit id="InfestationPit"/>
+<Unit id="BanelingNest"/>
+<Unit id="RoachWarren"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Lair"/>
+<Unit id="Hive"/>
+<Unit id="GreaterSpire"/>
+<Unit id="Drone"/>
+<Unit id="Zergling"/>
+<Unit id="Overlord"/>
+<Unit id="Hydralisk"/>
+<Unit id="Mutalisk"/>
+<Unit id="Ultralisk"/>
+<Unit id="Roach"/>
+<Unit id="Infestor"/>
+<Unit id="Corruptor"/>
+<Unit id="BroodLord"/>
+<Unit id="HydraliskBurrowed"/>
+<Unit id="Queen"/>
+<Unit id="Overseer"/>
+<Unit id="PlanetaryFortress"/>
+<Unit id="CreepTumorBurrowed"/>
+<Unit id="NydusCanal"/>
+<Unit id="RichMineralField" Variations="2,3,4,5,6,7"/>
+<Unit id="LurkerMP"/>
+<Unit id="Ravager"/>
+<Unit id="LurkerDen"/>
+<Unit id="Beacon_TerranSmall"/>
+<Unit id="MineralField" Variations="1,2,4,6,7,8,9"/>
+<Unit id="MineralField750" Variations="0,1,2,3,4,5,6,7,8"/>
+<Unit id="VespeneGeyser"/>
+<Unit id="SpacePlatformGeyser"/>
+<Unit id="LurkerBurrowed"/>
+<Unit id="SiegeBreakerSieged"/>
+<Unit id="WarPig"/>
+<Unit id="DevilDog"/>
+<Unit id="HammerSecurity"/>
+<Unit id="HelsAngelFighter"/>
+<Unit id="Omegalisk"/>
+<Unit id="BarracksTechReactor"/>
+<Unit id="ColonistShip"/>
+<Unit id="HelsAngelAssault"/>
+<Unit id="Spectre"/>
+<Unit id="Brutalisk"/>
+<Unit id="HybridDestroyer"/>
+<Unit id="HybridReaver"/>
+<Unit id="Civilian"/>
+<Unit id="ExtendingBridgeNWWide8Out"/>
+<Unit id="PickupScrapSalvage1x1"/>
+<Unit id="PickupScrapSalvage2x2"/>
+<Unit id="PickupScrapSalvage3x3"/>
+<Unit id="HotSTorrasque"/>
+<Unit id="HotSRaptor"/>
+<Unit id="GreaterNydusWorm"/>
+<Unit id="MercMedic"/>
+<Unit id="MercReaper"/>
+<Unit id="MengskMarauder"/>
+<Unit id="MengskMedic"/>
+<Unit id="SJPirateCapitalShip"/>
+<Unit id="HealthDispenser"/>
+<Unit id="HybridDominatorVoid"/>
+<Unit id="HybridNemesis"/>
+<Unit id="HybridBehemoth"/>
+<Unit id="MercMarine"/>
+</Preload>

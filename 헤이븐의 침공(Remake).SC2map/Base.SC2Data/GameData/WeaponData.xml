@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CWeaponLegacy id="Brutalize">
+        <Range value="2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="DevilDogFlameThrower">
+        <Icon value="Assets\Textures\btn-upgrade-raynor-incineratorgauntlets.dds"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="HammerSecurity">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="KelmorianMinerGaussRifle">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel2.dds"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="KelmorianMinerGaussRifle2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel0.dds"/>
+        <DisplayEffect value="KelmorianMinerDamage2"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="0.8608"/>
+        <DamagePoint value="0.05"/>
+        <Backswing value="0.75"/>
+        <Effect value="KelmorianMinerDamage2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="LiberatorAGWeapon3">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-shipweaponslevel0.dds"/>
+        <DisplayEffect value="LiberatorAGDamage2"/>
+        <DisplayAttackCount value="10"/>
+        <TargetFilters value="Ground,Visible;Structure,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="8"/>
+        <Arc value="360"/>
+        <Period value="1.5"/>
+        <DamagePoint value="0.125"/>
+        <Effect value="LiberatorAGMissileLMSet2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MengskWraithG">
+        <Icon value="Assets\Textures\btn-upgrade-nova-shotgun.dds"/>
+        <Period value="0.8"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MercReaperD8Charge">
+        <Period value="3"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-kd8chargeex3.dds"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MercReaperP38ScytheGuassPistol">
+        <Icon value="Assets\Textures\btn-upgrade-terran-nova-shotgunaoe.dds"/>
+        <Period value="0.9"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SJPirateCapitalShip">
+        <Period value="2.625"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SpartanCompanyA2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="SpartanCompanyAU2"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Arc value="29.9926"/>
+        <Period value="1.5"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SpartanCompanyAUpgraded2">
+        <EditorCategories value="Race:Terran"/>
+        <Options index="Disabled" value="1"/>
+        <Options index="Hidden" value="1"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Options index="LinkedCooldown" value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="SpartanCompanyAU2"/>
+        <DisplayAttackCount value="2"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Arc value="29.9926"/>
+        <Period value="1.5"/>
+        <Effect value="SpartanCompanyA2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SpartanCompanyG2">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Arc value="29.9926"/>
+        <Period value="1.5"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="SpartanCompanyGUpgraded2">
+        <EditorCategories value="Race:Terran"/>
+        <Options index="Disabled" value="1"/>
+        <Options index="Hidden" value="1"/>
+        <Options index="OnlyFireWhileInAttackOrder" value="0"/>
+        <Options index="OnlyFireAtAttackOrderTarget" value="0"/>
+        <Options index="LinkedCooldown" value="0"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
+        <DisplayEffect value="SpartanCompanyG2"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="6"/>
+        <Arc value="29.9926"/>
+        <Period value="1.5"/>
+        <Effect value="SpartanCompanyG2"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="Specter">
+        <Range value="7"/>
+        <Period value="1.5"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-nova-snipetripletap.dds"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="VultureSpiderMines">
+        <Range value="3"/>
+    </CWeaponLegacy>
+</Catalog>

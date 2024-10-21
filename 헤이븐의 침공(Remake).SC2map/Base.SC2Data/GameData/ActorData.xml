@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CActorUnit id="AutoTurret2" parent="GenericUnitStandard" unitName="HuntTurret">
+        <Aliases value="_CreepEngulfable"/>
+        <Aliases value="_UnitMedium"/>
+        <On Terms="Behavior.Precursor.Off" Send="Create AutoTurretReleaseMissileImpact"/>
+        <On Terms="Behavior.Precursor.Off" Send="$Birth"/>
+        <On Terms="WeaponStart.*.AttackStart" Send="AnimClear Birth"/>
+        <Model value="AutoTurret"/>
+        <CreepHeightClass value="Small"/>
+        <BuildModel value="AutoTurret"/>
+        <DeathArray index="Normal" ModelLink="AutoTurretDeath" SoundLink="Raven_AutoTurretExplode"/>
+        <DeathArray index="UnderConstruction" ModelLink="TerranBuildingDeath" SoundLink="Raven_AutoTurretExplode"/>
+        <PlacementModel value="AutoTurretPlacement"/>
+        <PlacementSound value="Terran_BuildingPlacement"/>
+        <PortraitModel value="AdjutantPortrait"/>
+        <BarOffset value="50"/>
+        <ErrorArray Error="CantBuildLocationInvalid" Sound="Raven_Pissed"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-AutoTurret.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
+        <SoundArray index="Birth" value="Raven_AutoTurretBirth"/>
+        <SoundArray index="Ready" value="Raven_AutoTurretReady"/>
+        <SoundArray index="What" value="Raven_AutoTurretWhat"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-AutoTurret.dds"/>
+        </Wireframe>
+        <HighlightTooltip value="Unit/Name/AutoTurret2"/>
+    </CActorUnit>
+    <CActorRange id="AutoTurretRange2" parent="RangeAbil" abil="BuildHuntTurret">
+        <Icon value="Assets\Textures\RadarIcon2.dds"/>
+        <IconArcLength value="3.250000"/>
+    </CActorRange>
+    <CActorAction id="AutoTurretRelease2" parent="GenericAttack" effectImpact="RemovePrecursor" effectLaunch="AutoTurretReleaseLM2">
+        <LaunchAssets Sound="Raven_AutoTurretReleaseLaunch2"/>
+        <LaunchModel value="GenericAttackLaunchModel2"/>
+        <LaunchSound value="GenericAttackLaunchSound2"/>
+        <ContainerModel value="GenericAttackLaunchModel2"/>
+        <ContainerSound value="GenericAttackLaunchSound2"/>
+        <Missile value="AutoTurretReleaseMissile2"/>
+        <ImpactSiteOps Ops="SOpAttachOrigin SOpShadow"/>
+        <ImpactMap index="None" Sound="Raven_AutoTurretReleaseImpact2"/>
+        <ImpactModel value="GenericAttackImpactModel2"/>
+        <ImpactSound value="GenericAttackImpactSound2"/>
+        <DamageModel value="GenericAttackDamageModel2"/>
+        <DamageSound value="GenericAttackDamageSound2"/>
+        <ShieldFlashType value="None"/>
+    </CActorAction>
+    <CActorMissile id="AutoTurretReleaseMissile2" parent="GenericAttackMissile" unitName="AutoTurretReleaseWeapon2"/>
+    <CActorModel id="GenericAttackDamageModel2" parent="GenericAttackModel"/>
+    <CActorModel id="GenericAttackDamageModel3" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackDamageSound2" parent="GenericAttackSound"/>
+    <CActorSound id="GenericAttackDamageSound3" parent="GenericAttackSound"/>
+    <CActorModel id="GenericAttackImpactModel2" parent="GenericAttackModel"/>
+    <CActorModel id="GenericAttackImpactModel3" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackImpactSound2" parent="GenericAttackSound"/>
+    <CActorSound id="GenericAttackImpactSound3" parent="GenericAttackSound"/>
+    <CActorModel id="GenericAttackLaunchModel2" parent="GenericAttackModel"/>
+    <CActorModel id="GenericAttackLaunchModel3" parent="GenericAttackModel"/>
+    <CActorSound id="GenericAttackLaunchSound2" parent="GenericAttackSound"/>
+    <CActorSound id="GenericAttackLaunchSound3" parent="GenericAttackSound"/>
+    <CActorUnit id="KelmorianMiner2" parent="KelmorianMiner" unitName="WarPig3">
+        <On index="0" Terms="UnitBirth.WarPig3"/>
+        <On index="1" Terms="UnitBirth.WarPig3"/>
+        <On index="2" Terms="UnitRevive.WarPig3"/>
+        <On index="3" Terms="UnitRevive.WarPig3"/>
+        <On index="4" Terms="UnitConstruction.WarPig3.Start"/>
+        <On index="5" Terms="UnitConstruction.WarPig3.Finish"/>
+        <On index="71" Terms="UnitDeath.WarPig3; AnimPlaying Cover"/>
+        <Model value="WarPig2"/>
+        <BuildModel value="WarPig2"/>
+        <DeathArray index="Normal" ModelLink="KelmorianMinerDeath2" SoundLink="Marine_DeathFXBloodSpray2"/>
+        <DeathArray index="Blast" ModelLink="MarineDeathBlast2" SoundLink="Marine_DeathFXBlast2"/>
+        <DeathArray index="Disintegrate" ModelLink="MarineDeathAcid2" SoundLink="Marine_DeathFXFire2"/>
+        <DeathArray index="Eat" ModelLink="MarineDeathEat2" SoundLink="Marine_DeathFXEat2"/>
+        <DeathArray index="Eviscerate" ModelLink="MarineDeathEviscerate2" SoundLink="Marine_DeathFXEviscerate2"/>
+        <DeathArray index="Fire" ModelLink="MarineDeathFire2" SoundLink="Marine_DeathFXFire2"/>
+        <DeathArray index="Silentkill" SoundLink="Marine_DeathFXSilentKill2"/>
+        <DeathArray index="Squish" SoundLink="Marine_DeathFXBloodSpray2"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow3"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow3"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow3"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow3"/>
+        <DeathCustoms index="4" ModelLink="Invisible3"/>
+        <PlacementModel value="WarPig2"/>
+        <PortraitModel value="MarineMercenaryPortrait2"/>
+        <SoundArray index="Ready" value="Marine_Ready2"/>
+        <SoundArray index="Help" value="Marine_Help2"/>
+        <SoundArray index="What" value="Marine_What2"/>
+        <SoundArray index="Yes" value="Marine_Yes2"/>
+        <SoundArray index="Attack" value="Marine_Attack2"/>
+        <SoundArray index="Pissed" value="Marine_Pissed2"/>
+    </CActorUnit>
+    <CActorUnit id="KelmorianMiner3" parent="KelmorianMiner" unitName="MercMarine">
+        <On index="0" Terms="UnitBirth.MercMarine"/>
+        <On index="1" Terms="UnitBirth.MercMarine"/>
+        <On index="2" Terms="UnitRevive.MercMarine"/>
+        <On index="3" Terms="UnitRevive.MercMarine"/>
+        <On index="4" Terms="UnitConstruction.MercMarine.Start"/>
+        <On index="5" Terms="UnitConstruction.MercMarine.Finish"/>
+        <On index="71" Terms="UnitDeath.MercMarine; AnimPlaying Cover"/>
+    </CActorUnit>
+    <CActorAction id="LiberatorAGAttack2" parent="GenericAttack" effectImpact="LiberatorAGDamage" effectLaunch="LiberatorAGMissileLM">
+        <LaunchAssets Sound="Liberator_AG_Launch"/>
+        <Missile value="LiberatorAGAttackMissile2"/>
+        <ImpactMap index="None" Model="LiberatorAGAttackImpact" Sound="Liberator_AG_Launch_Impact"/>
+        <ImpactPhysics Name="RailgunImpact" MatchKeys="Basic" Physics="RailgunAttackDeathForce"/>
+        <ActionFlags index="LaunchForceSite" value="1"/>
+    </CActorAction>
+    <CActorAction id="LiberatorAGAttack3" parent="GenericAttack" effectImpact="LiberatorAGDamage" effectLaunch="LiberatorAGMissileLM2">
+        <LaunchAssets Sound="Liberator_AG_Launch"/>
+        <Missile value="LiberatorAGAttackMissile3"/>
+        <ImpactMap index="None" Model="LiberatorAGAttackImpact" Sound="Liberator_AG_Launch_Impact"/>
+        <ImpactPhysics Name="RailgunImpact" MatchKeys="Basic" Physics="RailgunAttackDeathForce"/>
+        <ActionFlags index="LaunchForceSite" value="1"/>
+    </CActorAction>
+    <CActorMissile id="LiberatorAGAttackMissile2" parent="GenericAttackMissile" unitName="LiberatorAGMissile">
+        <Model value="Invisible"/>
+    </CActorMissile>
+    <CActorMissile id="LiberatorAGAttackMissile3" parent="GenericAttackMissile" unitName="LiberatorAGMissile">
+        <Model value="Invisible"/>
+    </CActorMissile>
+    <CActorBeamSimple id="LiberatorAttackBeam2" parent="BeamSimpleAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.LiberatorAGMissileLM.Start; At Caster" Send="Create"/>
+        <On Terms="Effect.LiberatorAGDamage.Start; At Target" Send="Create LiberatorImpactHoldingSite"/>
+        <On Terms="Effect.LiberatorAGDamage.Start" Send="RefSet ::HostImpact LiberatorImpactHoldingSite"/>
+        <Host Subject="_Selectable"/>
+        <Model value="LiberatorAttackBeam"/>
+        <HostLaunch Subject="_Selectable" Actor="Find"/>
+        <HostLaunchSiteOps Ops="SOpAttachWeapon"/>
+        <HostImpact Subject="_Missile" Actor="Find"/>
+    </CActorBeamSimple>
+    <CActorBeamSimple id="LiberatorAttackBeam3" parent="BeamSimpleAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.LiberatorAGMissileLM2.Start; At Caster" Send="Create"/>
+        <On Terms="Effect.LiberatorAGDamage.Start; At Target" Send="Create LiberatorImpactHoldingSite"/>
+        <On Terms="Effect.LiberatorAGDamage.Start" Send="RefSet ::HostImpact LiberatorImpactHoldingSite"/>
+        <Host Subject="_Selectable"/>
+        <Model value="LiberatorAttackBeam"/>
+        <HostLaunch Subject="_Selectable" Actor="Find"/>
+        <HostLaunchSiteOps Ops="SOpAttachWeapon"/>
+        <HostImpact Subject="_Missile" Actor="Find"/>
+    </CActorBeamSimple>
+    <CActorSound id="Marine_Death2" parent="Marine_Death">
+        <On index="2" Terms="UnitDeath.WarPig3; PassChance 100.000000"/>
+        <Sound value="Marine_Death2"/>
+    </CActorSound>
+    <CActorModel id="PointDefenseBeamImpact2" parent="ModelAnimationStyleContinuous">
+        <On Terms="Effect.PointDefenseLaserDamage.Start; At Target" Send="Create"/>
+        <On Terms="ActorCreation" Send="TimerSet 0.125000 Die"/>
+        <On Terms="TimerExpired; TimerName Die" Send="Destroy"/>
+        <On Terms="ActorCreation" Send="$Death"/>
+        <On Terms="ActorOrphan" Send="Destroy"/>
+        <Host Subject="_Missile"/>
+        <Model value="PointDefenseBeamImpact"/>
+    </CActorModel>
+    <CActorUnit id="SpecialPointDefenseDrone" parent="GenericUnitBase" unitName="PointDefenseDrone">
+        <Aliases value="_UnitMedium"/>
+        <On index="0" Terms="UnitBirth.SpecialPointDefenseDrone"/>
+        <On index="1" Terms="UnitBirth.SpecialPointDefenseDrone"/>
+        <On index="2" Terms="UnitRevive.SpecialPointDefenseDrone"/>
+        <On index="3" Terms="UnitRevive.SpecialPointDefenseDrone"/>
+        <On index="4" Terms="UnitConstruction.SpecialPointDefenseDrone"/>
+        <On index="5" Terms="UnitConstruction.SpecialPointDefenseDrone"/>
+        <On Terms="Behavior.PointDefenseReady.On" Send="AnimBracketStart Work Work,Start Work Work,End"/>
+        <On Terms="Behavior.PointDefenseReady" Send="AnimBracketStop Work"/>
+        <Model value="RepairDrone"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <BuildModel value="RepairDrone"/>
+        <DeathArray index="Normal" ModelLink="RepairDroneDeath" SoundLink="Raven_TargetingDroneExplode"/>
+        <PlacementModel value="RavenRepairDronePlacement"/>
+        <PlacementSound value="Terran_BuildingPlacement"/>
+        <PlacementActorModel value="PointDefenseDronePlacementModel"/>
+        <PlaceholderActorModel value="PointDefenseDronePlaceholderModel"/>
+        <PortraitModel value="AdjutantPortrait"/>
+        <BarOffset value="20"/>
+        <BarWidth value="36"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-PointDefenseDrone.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-biomechanicaldrone.dds"/>
+        <HighlightTooltip value="Unit/Name/SpecialPointDefenseDrone"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
+        <SoundArray index="What" value="Raven_PointDefenseDroneWhat"/>
+        <UnitIcon value="Assets\Textures\btn-unit-biomechanicaldrone.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-PointDefenseDrone.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorBeamSimple id="SpecialPointDefenseDroneAttackBeam" parent="BeamSimpleAnimationStyleContinuous">
+        <On Terms="Effect.PointDefenseLaserDamage.Start; At Caster" Send="Create"/>
+        <On Terms="ActorCreation" Send="TimerSet 0.125000 Die"/>
+        <On Terms="TimerExpired; TimerName Die" Send="Destroy"/>
+        <Model value="PointDefenseDroneAttackBeam"/>
+        <HostLaunch Subject="_Selectable" Actor="Find"/>
+        <HostLaunchSiteOps Ops="SOpAttachCenter"/>
+        <HostImpact Subject="_Missile" Actor="Find"/>
+        <HostImpactSiteOps Ops="SOpAttachCenter"/>
+    </CActorBeamSimple>
+    <CActorSound id="SpecialPointDefenseDroneAttackImpactSound" parent="SoundOneShot">
+        <On Terms="Effect.PointDefenseLaserDamage.Start; At Caster" Send="Create"/>
+        <Host Subject="::Creator"/>
+        <Sound value="Raven_PointDefenseDroneAttackImpact"/>
+    </CActorSound>
+    <CActorSound id="SpecialPointDefenseDroneAttackLaunchSound" parent="SoundOneShot">
+        <On Terms="Effect.PointDefenseLaserDamage.Start; At Caster" Send="Create"/>
+        <Host Subject="PointDefenseDrone"/>
+        <Sound value="Raven_PointDefenseDroneAttackLaunch"/>
+    </CActorSound>
+    <CActorUnit id="SpartanCompany2" parent="GenericUnitBase" unitName="SpartanCompany2">
+        <Aliases value="_UnitLarge"/>
+        <Macros value="UnloadDropAnim"/>
+        <On Terms="WeaponStart.SpartanCompanyG.AttackStart" Send="AnimBracketStart Attack Attack"/>
+        <On Terms="WeaponStop.SpartanCompanyG.AttackStop" Send="AnimBracketStop Attack"/>
+        <On Terms="WeaponStart.SpartanCompanyA.AttackStart" Send="AnimBracketStart Spell Spell"/>
+        <On Terms="WeaponStop.SpartanCompanyA.AttackStop" Send="AnimBracketStop Spell"/>
+        <On Terms="WeaponStart.SpartanCompanyAUpgraded.AttackStart" Send="AnimBracketStart Spell Spell"/>
+        <On Terms="WeaponStop.SpartanCompanyAUpgraded.AttackStop" Send="AnimBracketStop Spell"/>
+        <On Terms="Behavior.MercGroundDrop.Create" Send="Create SpartanCompanyDropModel"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <DeathArray index="Normal" ModelLink="SpartanCompanyDeath2" SoundLink="Goliath_Explode2"/>
+        <DeathCustoms index="0" ModelLink="ZergSmallUnitDeathLow5" Name="AntiGravGeneric"/>
+        <DeathCustoms index="1" ModelLink="ProtossSmallUnitDeathLow5" Name="AntiGravProtoss"/>
+        <DeathCustoms index="2" ModelLink="TerranSmallUnitDeathLow5" Name="AntiGravTerran"/>
+        <DeathCustoms index="3" ModelLink="ZergSmallUnitDeathLow5" Name="AntiGravZerg"/>
+        <DeathCustoms index="4" ModelLink="Invisible5" Name="Vortex"/>
+        <PortraitModel value="GoliathMercenaryPortrait2"/>
+        <StandAnimTurnTime value="4"/>
+        <WalkAnimMoveSpeed value="3.6093"/>
+        <BarOffset value="95"/>
+        <BarWidth value="66"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-goliath-mercenary.dds"/>
+        </GroupIcon>
+        <GroupSoundArray index="Birth" value="Goliath_Birth"/>
+        <GroupSoundArray index="Ready" value="Goliath_Ready2"/>
+        <GroupSoundArray index="Help" value="Goliath_Help2"/>
+        <GroupSoundArray index="What" value="Goliath_What2"/>
+        <GroupSoundArray index="Yes" value="Goliath_Yes2"/>
+        <GroupSoundArray index="Attack" value="Goliath_Attack2"/>
+        <GroupSoundArray index="Pissed" value="Goliath_Pissed2"/>
+        <HeroIcon value="Assets\Textures\BTN-Unit-Terran-GoliathMercenary.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel0.dds"/>
+        <SoundArray index="Birth" value="Goliath_Birth"/>
+        <SoundArray index="Ready" value="Goliath_Ready2"/>
+        <SoundArray index="Help" value="Goliath_Help2"/>
+        <SoundArray index="What" value="Goliath_What2"/>
+        <SoundArray index="Yes" value="Goliath_Yes2"/>
+        <SoundArray index="Attack" value="Goliath_Attack2"/>
+        <SoundArray index="Pissed" value="Goliath_Pissed2"/>
+        <UnitIcon value="Assets\Textures\BTN-Unit-Terran-GoliathMercenary.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-goliath-mercenary.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorAction id="SpartanCompanyAirAttack2" parent="GenericAttack" effectImpact="SpartanCompanyAU" effectLaunch="SpartanCompanyALM2">
+        <LaunchAttachQuery Methods="AMPatternSpartanCompany"/>
+        <LaunchAssets Model="SpartanCompanyAirAttackLaunch2" Sound="VikingFighter_AttackLaunch2"/>
+        <LaunchModel value="GenericAttackLaunchModel3"/>
+        <LaunchSound value="GenericAttackLaunchSound3"/>
+        <ContainerModel value="GenericAttackLaunchModel3"/>
+        <ContainerSound value="GenericAttackLaunchSound3"/>
+        <Missile value="SpartanCompanyAirAttackMissile2"/>
+        <ImpactMap index="None" Model="SpartanCompanyAirAttackImpact2" Sound="VikingFighter_AttackImpact2"/>
+        <ImpactModel value="GenericAttackImpactModel3"/>
+        <ImpactSound value="GenericAttackImpactSound3"/>
+        <ImpactPhysics Name="JavelinImpact" MatchKeys="Basic" Physics="ThorAAAttackForce"/>
+        <DamageModel value="GenericAttackDamageModel3"/>
+        <DamageSound value="GenericAttackDamageSound3"/>
+    </CActorAction>
+    <CActorMissile id="SpartanCompanyAirAttackMissile2" parent="GenericAttackMissile" unitName="SpartanCompanyAWeapon2">
+        <Model value="GoliathAWeapon2"/>
+    </CActorMissile>
+    <CActorModel id="SquibTransfusion4" parent="ModelAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.UnknownEffect2; At Target" Send="Create"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="SquibTransfusion"/>
+    </CActorModel>
+    <CActorModel id="SquibTransfusion42" parent="ModelAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <On Terms="Effect.DNArestoreeff; At Caster" Send="Create"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+        <Model value="SquibTransfusion"/>
+    </CActorModel>
+    <CActorModel id="StimpackEndImpact2" parent="ModelAnimationStyleOneShot">
+        <Inherits index="CloakEffect" value="1"/>
+        <On Terms="Behavior.Stimpack2.Off; ValidateUnit NotDead" Send="Create"/>
+        <On Terms="Behavior.StimpackMarauder.Off; ValidateUnit NotDead" Send="Create"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachOverhead"/>
+    </CActorModel>
+    <CActorRegionCircle id="TychusGrenadeDoodadKiller2">
+        <On Terms="Effect.BonesTossGrenadeDamage2.Start; At Effect" Send="Create"/>
+        <On Terms="ActorCreation" Send="QueryRegion ::Self DoodadKillQuery AgainstCenter"/>
+        <On Terms="Effect.BonesTossGrenadeDamage2.Start; At Effect" Send="Destroy"/>
+        <Radius value="2.000000"/>
+    </CActorRegionCircle>
+    <CActorModel id="TychusGrenadeInHand2" parent="ModelAddition">
+        <Inherits index="BaseModelScale" value="0"/>
+        <Inherits index="Scale" value="0"/>
+        <On Terms="Effect.BonesTossGrenadeDelay2.Start" Target="::Creator" Send="Create"/>
+        <On Terms="Effect.BonesTossGrenadeDelay2.Stop" Send="Destroy"/>
+        <HostSiteOps Ops="SOpAttachWeapon01"/>
+        <Model value="TychusTossGrenade"/>
+    </CActorModel>
+    <CActorAction id="TychusTossGrenade2" parent="GenericAttack" effectImpact="BonesTossGrenadeDamage" effectLaunch="BonesTossGrenadeLaunchMissile2">
+        <LaunchAttachQuery Methods="Weapon 1"/>
+        <Missile value="TychusTossGrenadeMissile2"/>
+        <ImpactMap index="None" Model="TychusTossGrenadeImpact" Sound="TychusTossGrenadeImpact"/>
+    </CActorAction>
+    <CActorSplat id="TychusTossGrenadeCursorSplat2" parent="TerranCursorSplat" abil="BonesTossGrenade2"/>
+    <CActorMissile id="TychusTossGrenadeMissile2" parent="GenericAttackMissile" unitName="TychusGrenadeWeapon"/>
+    <CActorRange id="TychusTossGrenadeRange2" parent="RangeAbil" abil="BonesTossGrenade2"/>
+    <CActorSound id="Tychus_TossGrenadeLaunch2" parent="SoundOneShot">
+        <On Terms="Effect.BonesTossGrenadeDelay2.Stop" Send="Create"/>
+        <Sound value="Tychus_TossGrenadeLaunch"/>
+    </CActorSound>
+    <CActorModel id="VoodooShield2" parent="ModelAnimationStyleContinuous">
+        <On Terms="Behavior.VoodooShield2.On" Send="Create"/>
+        <On Terms="ActorCreation" Send="AnimBracketStart $BSD"/>
+        <On Terms="ActorCreation" Send="SetOpacity 0.500000"/>
+        <On Terms="Behavior.VoodooShield2.Off" Send="AnimBracketStop BSD"/>
+        <Host Subject="_Selectable"/>
+        <HostSiteOps Ops="SOpAttachCenter"/>
+    </CActorModel>
+    <CActorSound id="VoodooShieldBirth2" parent="SoundOneShot">
+        <On Terms="Behavior.VoodooShield2.On" Send="Create"/>
+        <On Terms="Behavior.VoodooShield2.Off" Send="Destroy"/>
+        <Sound value="Tosh_PsiShieldBirth"/>
+    </CActorSound>
+    <CActorSound id="VoodooShieldDeath2" parent="SoundOneShot">
+        <On Terms="Behavior.VoodooShield2.Off" Send="Create"/>
+        <Sound value="Tosh_PsiShieldDeath"/>
+    </CActorSound>
+</Catalog>

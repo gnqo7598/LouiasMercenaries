@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRequirementCountUnit id="CountUnitWarPigQueuedOrBetter2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WarPig3" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitWarPigTotal2">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WarPig3" State="Total"/>
+    </CRequirementCountUnit>
+    <CRequirementEq id="Eq">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+    </CRequirementEq>
+</Catalog>
