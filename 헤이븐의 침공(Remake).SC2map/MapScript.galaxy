@@ -1056,36 +1056,17 @@ void gt_Init06Difficulties_Init () {
 // Trigger: Init 07 Help
 //--------------------------------------------------------------------------------------------------
 bool gt_Init07Help_Func (bool testConds, bool runActions) {
-    // Variable Declarations
-    text lv_text;
-
     // Automatic Variable Declarations
-    playergroup auto1F597FD5_g;
-    int auto1F597FD5_var;
     playergroup autoA2E55DC1_g;
     int autoA2E55DC1_var;
     playergroup autoC6B42DDC_g;
     int autoC6B42DDC_var;
-
-    // Variable Initialization
 
     // Actions
     if (!runActions) {
         return true;
     }
 
-    auto1F597FD5_g = gv_allyPlayers;
-    auto1F597FD5_var = -1;
-    while (true) {
-        auto1F597FD5_var = PlayerGroupNextPlayer(auto1F597FD5_g, auto1F597FD5_var);
-        if (auto1F597FD5_var < 0) { break; }
-        if ((PlayerHandle(auto1F597FD5_var) == "3-S2-1-5300439")) {
-            UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/DBAFA54D"));
-            SoundPlayForPlayer(SoundLink("Thor_Attack", -1), c_maxPlayers, PlayerGroupAll(), 100.0, 0.0);
-        }
-
-    }
-    HelpPanelAddTip(PlayerGroupAll(), StringExternal("Param/Value/594CF2FC"), lv_text, StringExternal("Param/Value/5C31274A"), "Assets\\Textures\\btn-tips-computerterminals.dds");
     HelpPanelAddTip(PlayerGroupAll(), StringExternal("Param/Value/FCF1905B"), StringExternal("Param/Value/316757E2"), StringExternal("Param/Value/D40C1572"), "Assets\\Textures\\wireframe-terran-factory.dds");
     HelpPanelShowTechTreeRace(PlayerGroupAll(), "Zerg", false);
     HelpPanelShowTechTreeRace(PlayerGroupAll(), "Neut", false);

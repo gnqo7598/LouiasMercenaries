@@ -137,7 +137,6 @@ Variable/Name/33C78DFA=Merc_Maraunder
 Variable/Name/353B93AB=Hatchery
 Variable/Name/358232C9=PlayerResources
 Variable/Name/35F6D8C4=PLAYER_07_ZERG
-Variable/Name/38E13D63=Text
 Variable/Name/4114C028=Brutalisk
 Variable/Name/44C7F6E3=ObjectivePing
 Variable/Name/4D7DEC19=Merc_Reaper

@@ -3,7 +3,6 @@
 <Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_hard.dds" Type="Image"/>
 <Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_easy.dds" Type="Image"/>
 <Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_medium.dds" Type="Image"/>
-<Asset path="assets\textures\btn-tips-computerterminals.dds" Type="Image"/>
 <Asset path="assets\textures\wireframe-terran-factory.dds" Type="Image"/>
 <Asset path="assets\textures\ui_glues_icons_gamemode_difficulty_veryhard.dds" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
@@ -12,7 +11,6 @@
 <Actor id="DecalSpace" Variations="2"/>
 <Actor id="DesertCaveEntrance"/>
 <Actor id="JarbanMinor_FenceBarbwire" Variations="0,1,2"/>
-<Actor id="Korhal_SpacePort_Plane_Destroyed" Variations="4"/>
 <Actor id="Korhal_TarmacSplat" Variations="1"/>
 <Actor id="MilitarySupplies" Variations="1,2"/>
 <Actor id="SnowRefinery_Terran_BaseSplats" Variations="1"/>
@@ -22,14 +20,12 @@
 <Actor id="UmojanLabHoloProjector"/>
 <Actor id="UmojanLabPillar2High" Variations="0"/>
 <Actor id="UmojanLabWallConsoles" Variations="1"/>
-<Actor id="WaterGenerator" Variations="0"/>
 <Actor id="AlarmLight" Variations="1"/>
 <Actor id="AvernusBarrier" Variations="3,4,5"/>
 <Actor id="ColonistShipAbandonedAngled" Variations="1"/>
 <Actor id="Crate" Variations="0,1,2,3,4,5"/>
 <Actor id="Decal" Variations="0,1,23"/>
 <Actor id="FanVentCliff" Variations="0"/>
-<Actor id="FireMedium"/>
 <Actor id="FishBlackFinMako" Variations="0"/>
 <Actor id="HavenDoodadsCrates" Variations="0,1,2,3,4"/>
 <Actor id="HavenTree" Variations="0,1,2,3,4,5,6,7"/>
@@ -44,6 +40,7 @@
 <Actor id="SpacePlatformFan" Variations="1"/>
 <Actor id="SpacePlatformFanLarge" Variations="1"/>
 <Actor id="SuperCrane"/>
+<Actor id="WaterTank" Variations="2"/>
 <Actor id="ColonistSupplies" Variations="0,1,2,4,5,6,7,8,9"/>
 <Actor id="ColonistSupplyCrate" Variations="2,4"/>
 <Actor id="ColonistHutDoodad" Variations="0,1,2,4,5,6,7"/>
@@ -53,7 +50,6 @@
 <Actor id="TRaynor01RadarDish"/>
 <Actor id="JumpHeightBooster"/>
 <Model id="Aiur_City_HybridWarp"/>
-<Sound id="Thor_Attack"/>
 <Sound id="WarpGate_TrainFinish"/>
 <Sound id="Ping"/>
 <Sound id="UI_ObjectiveComplete"/>
@@ -69,6 +65,7 @@
 <Unit id="Barracks"/>
 <Unit id="MissileTurret"/>
 <Unit id="Bunker"/>
+<Unit id="Starport"/>
 <Unit id="MercCompound"/>
 <Unit id="SiegeTank"/>
 <Unit id="SCV"/>
@@ -112,7 +109,6 @@
 <Unit id="Ravager"/>
 <Unit id="LurkerDen"/>
 <Unit id="Beacon_TerranSmall"/>
-<Unit id="MineralField" Variations="1,2,4,6,7,8,9"/>
 <Unit id="MineralField750" Variations="0,1,2,3,4,5,6,7,8"/>
 <Unit id="VespeneGeyser"/>
 <Unit id="SpacePlatformGeyser"/>
@@ -124,6 +120,7 @@
 <Unit id="HelsAngelFighter"/>
 <Unit id="Omegalisk"/>
 <Unit id="BarracksTechReactor"/>
+<Unit id="StarportTechReactor"/>
 <Unit id="ColonistShip"/>
 <Unit id="HelsAngelAssault"/>
 <Unit id="Spectre"/>
